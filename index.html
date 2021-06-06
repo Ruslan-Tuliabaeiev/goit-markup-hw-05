@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>WebStudio</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
@@ -23,7 +26,7 @@
 <div class="container top-line">
         <nav class="navigation" >
 
-<a class="logotip link" href="./index.html">Web<span class="logo-1">Studio</span></a>
+<a class="logotip link animate__rubberBand" href="./index.html">Web<span class="logo-1">Studio</span></a>
 
 <ul class="menu list">
 
@@ -74,7 +77,7 @@
     <h1 class="hero-item">ЭФФИКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА </h1>
 
     
- <button class="modal-btn" type="button">  заказать услугу</button>
+ <button class="modal-btn" type="button" data-modal-open >  заказать услугу</button>
  </div>
         </section>
        
@@ -490,7 +493,17 @@
        </div>
     </div>
     </footer>
-
+<div class="backdrop is-hidden" data-modal>
+<div class="button-modal">
+    
+<button type="button" class="button-modal-close" data-modal-close>
+<svg width="11" height="11">
+    <use href="./images/icons.svg/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
+</svg>
+</button>
+</div>
+</div>
+<script src="./js/model.js"></script>
     </body>
   </html>
 
