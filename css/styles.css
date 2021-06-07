@@ -180,6 +180,7 @@ letter-spacing: 0.02em;
 
 color:var(--priorety-link-color) ;
 
+transition-property: var(--logo-color);
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -192,13 +193,14 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 color: var(--logo-color);
 position: relative;
 
+transition-property: var(--logo-color);
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 .menu-link-studio-list-portfolio::after {
     position: absolute;
     left: 0;
-    bottom: -30px;
+    bottom: -32px;
     display: block;
     content: '';
     width: 100%;
@@ -218,6 +220,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
     
     color:var(--priorety-link-color) ;
 
+    transition-property: var(--logo-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -228,7 +231,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
     line-height: 1.14;
     letter-spacing: 0.02em;
     
-    color:var(--logo-color) ;
+   
+   
 }
 .menu-link-studio{
     font-style: normal;
@@ -240,13 +244,14 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
     color:var(--logo-color) ;
     position: relative;
 
+    transition-property: var(--logo-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 .menu-link-studio::after {
     position: absolute;
     left: 0;
-    bottom: -30px;
+    bottom: -34px;
     display: block;
     content: '';
     width: 100%;
@@ -287,8 +292,9 @@ color:var(--priorety-link-color) ;
     display: flex;
     align-items: center;
 
+    transition-property: var(--logo-color);
     transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .tel-link-tel{
@@ -303,6 +309,7 @@ align-items: center;
 color: var(--priorety-iten-color);
 margin-left:10px ;
 
+transition-property: var(--logo-color);
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -310,12 +317,20 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
     display: inline-block;
     margin-right: 10px;
     fill:var(--priorety-iten-color);
+
+    transition-property: var(--logo-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 .mail-link-icon-tel{
     display: inline-block;
     margin-left: 30px;
     fill:var(--priorety-iten-color);
     margin-right: 10px;
+
+    transition-property: var(--logo-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 .mail-link:hover,
 .mail-link:focus{
@@ -473,6 +488,8 @@ margin-left: -30px;
 
 }
 .going-list-foto{
+position: relative;
+
 flex-basis: calc((100% - 90px)/3); 
 margin-top: 30px;
 margin-left: 30px;
@@ -491,7 +508,19 @@ text-align: center;
 margin-bottom: 50px;
 }
 
+.going-list-text{
 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(47, 48, 58, 0.8);
+color: var(--logo-1-footercolor);
+}
 
 
 /*==== end going ====*/
@@ -589,8 +618,11 @@ margin-bottom: 10px;
     border-radius: 50%;
     background-color:var(--logo-1-footercolor) ;
 
+    transition-property: var(--logo-color);
     transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+
+
 }
 .social-list-link:hover,
 .social-list-link:focus{
@@ -610,6 +642,10 @@ justify-content: space-between;
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
+
+    transition-property: var(--logo-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 
@@ -801,6 +837,7 @@ height: 44px;
 border-radius: 50%;
 background-color:rgba(255, 255, 255, 0.1);
 
+transition-property: var(--logo-color);
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -827,9 +864,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
     margin-bottom: 50px;
 
 }
-.buton-text{
-    margin-left: 8px;
-}
+
 .logotip-porfolio{
     display: flex;
     flex-wrap: wrap;
@@ -839,8 +874,12 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 .logotip-porfolio-logo{
      margin-left: 30px;
     margin-top: 30px;
-   transition-duration: 250ms;
-   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    transition-property: var(--logo-color);
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+
+  
 }
 .logotip-porfolio-logo-text{
 padding-top: 20px;
@@ -894,10 +933,13 @@ padding-right: 24px;
     background-color:var(--colektive-background-color);
     border-color:var(--colektive-background-color) ;
 
+    transition-property: fill, background-color;
     transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
-
+.buton-text{
+    margin-left: 8px;
+}
 .logotip-porfolio-logo:hover,
 .logotip-porfolio-logo:focus{
 
@@ -919,6 +961,7 @@ padding:63px 24px ;
     overflow: auto;
     transform: translateY(100%);
     transition: transform 250ms linear;
+
 
 }
 .porfolio-logotip-overlay:hover .porfolio-overlay,
@@ -944,7 +987,7 @@ transform: translateY(0%);
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-transition: opacity 250ms linear;
+transition: opacity 250ms linear,visibility 250ms linear;
 }
 .button-modal{
 position: absolute;
@@ -968,7 +1011,7 @@ transform: translate(-50%,-50%);
     background-color: transparent;
     border:  1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
-
+   
 
 }
 .is-hidden{
