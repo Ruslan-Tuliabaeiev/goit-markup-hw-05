@@ -509,6 +509,12 @@ margin-bottom: 50px;
 }
 
 .going-list-text{
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 
     position: absolute;
     left: 0;
@@ -933,7 +939,7 @@ padding-right: 24px;
     background-color:var(--colektive-background-color);
     border-color:var(--colektive-background-color) ;
 
-    transition-property: fill, background-color;
+    transition-property: var(--logo-color);
     transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
