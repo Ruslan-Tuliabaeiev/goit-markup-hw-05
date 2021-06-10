@@ -180,7 +180,7 @@ letter-spacing: 0.02em;
 
 color:var(--priorety-link-color) ;
 
-transition-property: var(--logo-color);
+transition-property: color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -193,7 +193,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 color: var(--logo-color);
 position: relative;
 
-transition-property: var(--logo-color);
+transition-property: color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -220,7 +220,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
     
     color:var(--priorety-link-color) ;
 
-    transition-property: var(--logo-color);
+    transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -244,7 +244,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
     color:var(--logo-color) ;
     position: relative;
 
-    transition-property: var(--logo-color);
+    transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -269,6 +269,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
     letter-spacing: 0.02em;
     
     color:var(--priorety-link-color) ;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 .menu{
 font-style: normal;
@@ -292,7 +296,7 @@ color:var(--priorety-link-color) ;
     display: flex;
     align-items: center;
 
-    transition-property: var(--logo-color);
+    transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -309,7 +313,7 @@ align-items: center;
 color: var(--priorety-iten-color);
 margin-left:10px ;
 
-transition-property: var(--logo-color);
+transition-property: color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -318,7 +322,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
     margin-right: 10px;
     fill:var(--priorety-iten-color);
 
-    transition-property: var(--logo-color);
+    transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -328,7 +332,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
     fill:var(--priorety-iten-color);
     margin-right: 10px;
 
-    transition-property: var(--logo-color);
+    transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -609,7 +613,6 @@ margin-bottom: 10px;
     font-size: 16px;
     line-height: 1.19;
     
-    text-align: ;
     letter-spacing: 0.03em;
     
     color:var(--priorety-link-color) ;
@@ -624,7 +627,7 @@ margin-bottom: 10px;
     border-radius: 50%;
     background-color:var(--logo-1-footercolor) ;
 
-    transition-property: var(--logo-color);
+    transition-property: background-color ;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 
@@ -649,7 +652,7 @@ justify-content: space-between;
     height: 20px;
     fill: #AFB1B8;
 
-    transition-property: var(--logo-color);
+    transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -693,7 +696,8 @@ color: var(--priorety-link-color);
     border: 1px solid #afb1b8;
     border-radius: 4px;
     fill: #afb1b8;
-    
+
+    transition-property: fill , border solid;
     transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -843,7 +847,7 @@ height: 44px;
 border-radius: 50%;
 background-color:rgba(255, 255, 255, 0.1);
 
-transition-property: var(--logo-color);
+transition-property: background-color ;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -860,6 +864,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 
 
 /*==== hero portfolio ====*/
+
 .class-hero-portfolio{
  padding-top: 94px;
  padding-bottom: 94px;
@@ -881,12 +886,14 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
      margin-left: 30px;
     margin-top: 30px;
 
-    transition-property: var(--logo-color);
+    transition-property: colr ;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 
   
 }
+
+
 .logotip-porfolio-logo-text{
 padding-top: 20px;
 padding-bottom: 20px;
@@ -923,8 +930,13 @@ padding-right: 24px;
   .hero-buton-link-a:focus{
     background-color:   var(--logo-color);
     color: var(--logo-1-footercolor);
-    box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);;
-  }
+    box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
+    transition-property:box-shadow  ;
+    transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+}
+  
 
 .hero-buton-link{
     font-weight: 500;
@@ -939,7 +951,7 @@ padding-right: 24px;
     background-color:var(--colektive-background-color);
     border-color:var(--colektive-background-color) ;
 
-    transition-property: var(--logo-color);
+    transition-property:  color , background-color , border-color ;
     transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -949,7 +961,11 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 .logotip-porfolio-logo:hover,
 .logotip-porfolio-logo:focus{
 
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+    transition-property: box-shadow ;
+    transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 .tim-list-overlay{
      position: relative;
