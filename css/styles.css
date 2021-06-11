@@ -697,7 +697,7 @@ color: var(--priorety-link-color);
     border-radius: 4px;
     fill: #afb1b8;
 
-    transition-property: fill , border solid;
+    transition-property: fill , border;
     transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -932,9 +932,7 @@ padding-right: 24px;
     color: var(--logo-1-footercolor);
     box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
-    transition-property:box-shadow  ;
-    transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+
 }
   
 
